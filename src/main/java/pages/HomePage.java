@@ -25,6 +25,8 @@ public class HomePage {
     public KontaktPage clickKontaktButton() {
         driver.findElement(kontaktButton).click();
         return new KontaktPage(driver);
+
+
     }
     public void allowCoockies(){
         WebElement cookieButton = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(allowCoockiesButton));

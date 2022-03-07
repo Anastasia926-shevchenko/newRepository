@@ -15,6 +15,7 @@ public class WirUberUnsTabTest extends WebDriverFactory{
         WirUberUns wirUberUns;
         wirUberUns = homePage.openWirUberUnsTab();
         wirUberUns.checkOnPage();
+
         wirUberUns.selectHamburg();
         wirUberUns.moveBetweenPictures();
         wirUberUns.closeHamburg();
